@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "common-stocks-uncommon-profits": {
+      "source": "simbajigege/book2skills",
+      "sourceType": "github",
+      "computedHash": "99cab072877925c1b9b121d6d4e2b25723848087cf468c854bf4e479a3997789"
+    }
+  }
+}

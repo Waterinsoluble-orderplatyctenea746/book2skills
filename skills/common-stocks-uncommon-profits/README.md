@@ -1,4 +1,4 @@
-# fisher-investing
+# common-stocks-uncommon-profits
 
 > A growth stock analysis Skill based on Philip Fisher's *Common Stocks and Uncommon Profits*
 
@@ -44,7 +44,7 @@ Once installed, you can ask Claude directly:
 ## Skill Structure
 
 ```
-fisher-investing/
+common-stocks-uncommon-profits/
 ├── SKILL.md                    # Core framework + routing logic (Level 1+2)
 └── references/
     ├── fifteen-points.md       # Complete 15-point evaluation criteria
@@ -58,15 +58,15 @@ fisher-investing/
 ## Installation
 
 ### Claude.ai
-Download `fisher-investing.skill` from [Releases](../../../releases) and upload it in Settings → Features → Custom Skills.
+Download `common-stocks-uncommon-profits.skill` from [Releases](../../../releases) and upload it in Settings → Features → Custom Skills.
 
 ### Claude Code
 ```bash
-cp -r fisher-investing .claude/skills/
+cp -r common-stocks-uncommon-profits .claude/skills/
 ```
 
 ### Any platform supporting the agentskills.io standard
-Copy the `fisher-investing/` folder to the platform's skills directory.
+Copy the `common-stocks-uncommon-profits/` folder to the platform's skills directory.
 
 ---
 

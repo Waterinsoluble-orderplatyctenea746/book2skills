@@ -88,7 +88,7 @@ PR description should include:
 
 ## File Naming Conventions
 
-- Skill folder name: `kebab-case`, recommended format: `{topic}-{book-keyword}`, e.g. `fisher-investing`, `collins-good-to-great`
+- Skill folder name: `kebab-case`, recommended format: `{topic}-{book-keyword}`, e.g. `common-stocks-uncommon-profits`, `collins-good-to-great`
 - Files in references/: descriptive names, e.g. `framework.md`, `evaluation-criteria.md`, `common-mistakes.md`
 
 ---

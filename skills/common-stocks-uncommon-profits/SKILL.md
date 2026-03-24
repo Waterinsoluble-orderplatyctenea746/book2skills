@@ -1,5 +1,5 @@
 ---
-name: fisher-investing
+name: common-stocks-uncommon-profits
 description: >
   Apply Philip Fisher growth stock investing methodology from Common Stocks and Uncommon Profits.
   Use this skill whenever a user asks about evaluating whether a company is a growth stock,

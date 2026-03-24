@@ -24,7 +24,7 @@ By distilling a book's core frameworks, decision processes, and evaluation crite
 
 | Skill | Book | Author | Category | Status |
 |-------|------|--------|----------|--------|
-| [fisher-investing](./skills/fisher-investing/) | *Common Stocks and Uncommon Profits* | Philip Fisher | Investing | ✅ Released |
+| [common-stocks-uncommon-profits](./skills/common-stocks-uncommon-profits/) | *Common Stocks and Uncommon Profits* | Philip Fisher | Investing | ✅ Released |
 | *(more coming soon)* | | | | 🔜 |
 
 ---
@@ -43,7 +43,7 @@ By distilling a book's core frameworks, decision processes, and evaluation crite
 git clone https://github.com/simbajigege/book2skills.git
 
 # Copy the desired skill to your project
-cp -r book2skills/skills/fisher-investing .claude/skills/
+cp -r book2skills/skills/common-stocks-uncommon-profits .claude/skills/
 ```
 
 ### Manual Installation (any platform supporting Agent Skills)
@@ -92,7 +92,7 @@ book2skills/
 ├── README.md
 ├── CONTRIBUTING.md          # Contributing guide
 ├── skills/
-│   ├── fisher-investing/    # Each skill in its own folder
+│   ├── common-stocks-uncommon-profits/    # Each skill in its own folder
 │   │   ├── SKILL.md         # Core file: triggers + main framework
 │   │   └── references/      # Detailed reference files (loaded on demand)
 │   │       ├── fifteen-points.md
