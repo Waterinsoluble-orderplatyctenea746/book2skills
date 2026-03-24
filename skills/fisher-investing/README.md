@@ -1,101 +1,101 @@
 # fisher-investing
 
-> 基于 Philip Fisher《普通股与非凡利润》的成长股投资分析 Skill
+> A growth stock analysis Skill based on Philip Fisher's *Common Stocks and Uncommon Profits*
 
 ---
 
-## 原著信息
+## About the Book
 
 | | |
 |---|---|
-| **书名** | *Common Stocks and Uncommon Profits and Other Writings* |
-| **作者** | Philip A. Fisher |
-| **首版年份** | 1958（修订版 1960） |
-| **地位** | 巴菲特称之为对其投资哲学影响最深的书籍之一 |
+| **Title** | *Common Stocks and Uncommon Profits and Other Writings* |
+| **Author** | Philip A. Fisher |
+| **First Published** | 1958 (revised 1960) |
+| **Significance** | Warren Buffett called it one of the most influential books on his investment philosophy |
 
 ---
 
-## 这个 Skill 能做什么
+## What This Skill Does
 
-安装后，你可以直接向 Claude 提问：
+Once installed, you can ask Claude directly:
 
-**成长股识别**
-- "英伟达是成长股吗？"
-- "用费舍尔的标准分析苹果公司"
-- "台积电在费舍尔的15个要点上得几分？"
+**Identifying Growth Stocks**
+- "Is NVIDIA a growth stock?"
+- "Analyze Apple using Fisher's criteria"
+- "How does TSMC score on Fisher's 15 points?"
 
-**公司调研**
-- "我应该如何调研比亚迪？"
-- "小道消息法（Scuttlebutt）具体怎么用？"
-- "我应该去问哪些人来了解这家公司？"
+**Company Research**
+- "How should I research BYD?"
+- "How exactly does the Scuttlebutt method work?"
+- "Who should I talk to in order to learn about this company?"
 
-**买卖时机**
-- "现在适合买入特斯拉吗？"
-- "我应该卖出我的亚马逊股票吗？"
-- "股市大跌时我该怎么做？"
+**Buy & Sell Timing**
+- "Is now a good time to buy Tesla?"
+- "Should I sell my Amazon stock?"
+- "What should I do when the market crashes?"
 
-**投资避坑**
-- "费舍尔说投资者最容易犯哪些错误？"
-- "我应该持有多少只股票？"
-- "高市盈率意味着股票被高估了吗？"
+**Avoiding Mistakes**
+- "What does Fisher say are the most common investor mistakes?"
+- "How many stocks should I hold?"
+- "Does a high P/E mean a stock is overvalued?"
 
 ---
 
-## Skill 结构
+## Skill Structure
 
 ```
 fisher-investing/
-├── SKILL.md                    # 核心框架 + 路由逻辑（Level 1+2）
+├── SKILL.md                    # Core framework + routing logic (Level 1+2)
 └── references/
-    ├── fifteen-points.md       # 15要点完整评估标准
-    ├── scuttlebutt.md          # 小道消息调研方法论
-    ├── when-to-buy-sell.md     # 买入卖出时机判断
-    └── donts.md                # 10大投资禁忌 + 分散化规则
+    ├── fifteen-points.md       # Complete 15-point evaluation criteria
+    ├── scuttlebutt.md          # Scuttlebutt research methodology
+    ├── when-to-buy-sell.md     # Buy and sell timing judgment
+    └── donts.md                # 10 investment don'ts + diversification rules
 ```
 
 ---
 
-## 安装方式
+## Installation
 
 ### Claude.ai
-从 [Releases](../../../releases) 下载 `fisher-investing.skill`，在 Settings → Features → Custom Skills 中上传。
+Download `fisher-investing.skill` from [Releases](../../../releases) and upload it in Settings → Features → Custom Skills.
 
 ### Claude Code
 ```bash
 cp -r fisher-investing .claude/skills/
 ```
 
-### 任意支持 agentskills.io 标准的平台
-将 `fisher-investing/` 文件夹复制到对应平台的 skills 目录。
+### Any platform supporting the agentskills.io standard
+Copy the `fisher-investing/` folder to the platform's skills directory.
 
 ---
 
-## 核心方法论速览
+## Core Methodology Overview
 
-### 费舍尔 15 要点（成长股评估框架）
+### Fisher's 15 Points (Growth Stock Evaluation Framework)
 
-| 类别 | 要点 | 核心问题 |
-|------|------|---------|
-| 业务质量 | 1. 市场潜力 | 产品/服务能否持续多年显著增长？ |
-| | 2. 研发决心 | 管理层是否致力于开发下一代产品？ |
-| | 3. 研发效率 | R&D 投入产出比如何？ |
-| | 4. 销售能力 | 公司是否有优秀的销售组织？ |
-| | 5. 利润率 | 利润率是否高于行业平均？ |
-| | 6. 利润率维护 | 公司在做什么来保持/改善利润率？ |
-| 管理质量 | 7. 劳工关系 | 员工关系是否出色？ |
-| | 8. 管理层关系 | 高管团队氛围是否健康？ |
-| | 9. 管理深度 | 是否有纵深的管理梯队？ |
-| | 10. 成本控制 | 成本分析和会计控制是否有效？ |
-| | 11. 行业特殊因素 | 是否有行业特定的竞争优势？ |
-| | 12. 长远视野 | 管理层是否有长远利润观？ |
-| 财务健康 | 13. 股权稀释风险 | 融资计划是否会大幅稀释股东利益？ |
-| | 14. 信息透明度 | 遇到困难时是否仍坦诚沟通？ |
-| **★ 最重要** | **15. 管理层诚信** | **管理层是否具有无可置疑的诚信？** |
+| Category | Point | Key Question |
+|----------|-------|-------------|
+| Business Quality | 1. Market Potential | Can the product/service grow significantly for many years? |
+| | 2. R&D Commitment | Is management committed to developing next-generation products? |
+| | 3. R&D Effectiveness | What is the R&D return on investment? |
+| | 4. Sales Capability | Does the company have an outstanding sales organization? |
+| | 5. Profit Margins | Are profit margins above the industry average? |
+| | 6. Margin Maintenance | What is the company doing to maintain/improve margins? |
+| Management Quality | 7. Labor Relations | Are employee relations outstanding? |
+| | 8. Executive Relations | Is the executive team atmosphere healthy? |
+| | 9. Management Depth | Is there a deep management bench? |
+| | 10. Cost Controls | Are cost analysis and accounting controls effective? |
+| | 11. Industry-Specific Factors | Are there industry-specific competitive advantages? |
+| | 12. Long-term Outlook | Does management have a long-term profit perspective? |
+| Financial Health | 13. Dilution Risk | Will financing plans significantly dilute shareholder value? |
+| | 14. Transparency | Does management communicate honestly even in difficult times? |
+| **★ Most Important** | **15. Management Integrity** | **Is management's integrity beyond question?** |
 
-> **点15是唯一的一票否决项** — 诚信存疑，无论其他方面多优秀，立即排除。
+> **Point 15 is the only veto** — if integrity is in doubt, eliminate the company immediately, regardless of how strong everything else looks.
 
 ---
 
-## 致谢
+## Acknowledgments
 
-本 Skill 基于对原著的完整阅读和系统提炼，书中所有核心观点均归功于 Philip A. Fisher。
+This Skill is based on a complete reading and systematic distillation of the original book. All core insights are credited to Philip A. Fisher.
