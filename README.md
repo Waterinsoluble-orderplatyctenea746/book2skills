@@ -2,7 +2,7 @@
 
 > 将经典书籍的智慧，转化为 AI Agent 可直接使用的 Skills。
 
-**book2skills** 是一个开源项目，专注于将高质量的实用类书籍系统性地提炼为 [Agent Skills](https://agentskills.io) 格式，让 Claude、Claude Code 等 AI Agent 能够直接运用书中的方法论来解决实际问题。
+**book2skills** 是一个开源项目，专注于将高质量的实用类书籍系统性地提炼为Agent Skills 格式，让 Claude、Claude Code 等 AI Agent 能够直接运用书中的方法论来解决实际问题。
 
 ---
 
@@ -16,7 +16,7 @@
 - 📖 **忠实原著** — 每个 Skill 均基于完整阅读原书，而非二手摘要
 - 🧩 **可操作** — 不只是知识搬运，而是转化为 Agent 可执行的判断框架
 - 🔍 **可验证** — 每个标准和规则都标注来源章节，便于溯源
-- 🌐 **开放标准** — 遵循 [agentskills.io](https://agentskills.io) 规范，兼容 Claude、Claude Code、Cursor、VS Code 等平台
+- 🌐 **开放标准** — 遵循规范，兼容 Claude、Claude Code、Cursor、VS Code 等平台
 
 ---
 
