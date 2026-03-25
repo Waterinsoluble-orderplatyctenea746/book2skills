@@ -1,6 +1,6 @@
 ---
 name: munger-mental-models-worldly-wisdom
-description: Apply Charlie Munger's latticework of mental models and worldly wisdom to investments, decisions, and bias detection. Trigger on: "analyze this investment like Munger", "what mental models apply here", "spot psychological biases", "evaluate this business using worldly wisdom", "Munger checklist".
+description: "Apply Charlie Munger's latticework of mental models and worldly wisdom to investments, decisions, and bias detection. Trigger on: \"analyze this investment like Munger\", \"what mental models apply here\", \"spot psychological biases\", \"evaluate this business using worldly wisdom\", \"Munger checklist\"."
 license: "Skill distillation for personal/educational use. Do not reproduce source passages verbatim."
 ---
 
