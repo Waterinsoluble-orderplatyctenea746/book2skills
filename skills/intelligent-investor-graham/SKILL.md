@@ -1,6 +1,6 @@
 ---
 name: intelligent-investor-graham
-description: Apply Benjamin Graham's value investing framework to evaluate stocks, portfolio allocation, and investment vs. speculation decisions. Trigger on: "Is this stock worth buying?", "Is this investment or speculation?", "How should I allocate my portfolio?", "Is this company a good value?", "should I sell in a downturn?", "evaluate this stock for a defensive investor".
+description: "Apply Benjamin Graham's value investing framework to evaluate stocks, portfolio allocation, and investment vs. speculation decisions. Trigger on: \"Is this stock worth buying?\", \"Is this investment or speculation?\", \"How should I allocate my portfolio?\", \"Is this company a good value?\", \"should I sell in a downturn?\", \"evaluate this stock for a defensive investor\"."
 license: "Skill distillation for personal/educational use. Do not reproduce source passages verbatim."
 ---
 
