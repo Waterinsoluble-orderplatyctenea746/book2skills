@@ -21,6 +21,10 @@ A Claude skill that applies Charlie Munger's complete decision-making framework 
 
 ## Installation
 
+```bash
+npx skills add simbajigege/book2skills/skills/munger-mental-models-worldly-wisdom
+```
+
 1. Download or clone this folder.
 2. In Claude.ai, go to **Settings → Skills** and upload the skill folder.
 3. The skill will appear in your available skills list.

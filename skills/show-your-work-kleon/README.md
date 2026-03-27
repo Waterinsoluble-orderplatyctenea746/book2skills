@@ -35,6 +35,10 @@ It applies Kleon's 10-principle framework to help you answer:
 
 ## Installation
 
+```bash
+npx skills add simbajigege/book2skills/skills/show-your-work-kleon
+```
+
 1. Download `show-your-work-kleon.zip`
 2. In Claude, go to Skills → Add Skill → Upload ZIP
 3. The skill will appear in your skill library as "Show Your Work — Kleon's Sharing Framework"

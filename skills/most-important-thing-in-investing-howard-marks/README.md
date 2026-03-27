@@ -26,6 +26,10 @@ It also activates when an investor appears to be exhibiting classic psychologica
 
 ## Installation
 
+```bash
+npx skills add simbajigege/book2skills/skills/most-important-thing-in-investing-howard-marks
+```
+
 1. Download or clone this folder.
 2. In Claude.ai, go to **Settings → Skills** and upload the skill folder.
 3. The skill will appear in your available skills list.

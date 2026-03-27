@@ -57,6 +57,10 @@ common-stocks-uncommon-profits/
 
 ## Installation
 
+```bash
+npx skills add simbajigege/book2skills/skills/common-stocks-uncommon-profits-stock-pickup-phisher
+```
+
 ### Claude.ai
 Download `common-stocks-uncommon-profits.skill` from [Releases](../../../releases) and upload it in Settings → Features → Custom Skills.
 
